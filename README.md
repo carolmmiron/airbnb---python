@@ -1,54 +1,32 @@
 ![logosmall](https://github.com/user-attachments/assets/36159ba9-4828-42c5-b5bb-7574355b7afc)
 # Airbnb 
-Instacart, an **online grocery store** that operates through an app. The **task** is to perform an initial *data and exploratory analysis* of some of their data in order to derive insights and **suggest strategies for better segmentation** based on some provided criteria. [Data_Immersion_Project_Brief.pdf](https://github.com/user-attachments/files/16595746/A4_Data_Immersion_Project_Brief.pdf)
+Airbnb, Inc. is an American company operating an **online marketplace for short-and-long-term homestays and experiences** in various countries and regions. The company **acts as a broker and charges a commission from each booking**.
+
+Data Relevancy: All the data sets are relevant for the analysis on how the proliferation of Airbnb accommodations are shifting the neighborhoods in Madrid. Madrid Airbnbs are mostly controlled by real estate agents, specialized
+companies, large and small owners who are dedicated to extracting housing from the residential rental market to introduce it on Airbnb.
+**The Central district of Madrid** is a particular case that requires special attention, as its **number of apartments per km2 it is 10 times higher than that of any other district in Madrid**.
 
 # Key Questions
-● The sales team needs to know what **the busiest days of the week and hours of the
-day** are (i.e., the days and times with the most orders) in order to schedule ads at
-times when there are fewer orders.
+● Review the current Airbnb listing presence distribution is Madrid. **What is the district that has the highest listings number?**
 
-● They also want to know whether there are particular **times of the day when people
-spend the most money**, as this might inform the type of products they advertise at
-these times.
+● Analyse the impact of the location upon pricing (Exploratory Analysis). **Is there a direct correlation between these two variables?**
 
-● Instacart has a lot of products with different price tags. Marketing and sales want to
-use simpler price range groupings to help direct their efforts.
+● Expand the analysis (Linear Regression) to other factors that might have a impact on listings pricing. 
 
-● Are there certain **types of products that are more popular than others**? The marketing
-and sales teams want to know which departments have the highest frequency of
-product orders.
+● Gather **additional insights** (Cluster Analysis) on the factors with a direct correlation by **creating clusters (groups)**. How do they behave?
 
-● The marketing and sales teams are particularly interested in the **different types of
-customers** in their system and how their ordering behaviors differ. 
+● If there a common denominator based on findings? Is the **data in alignment with Airbnb SEO algorithm**? 
 
-     ○ What’s the **distribution** among users in regards to their **brand loyalty** (i.e., how
-     often do they return to Instacart)?
-     
-     ○ Are there differences in **ordering habits** based on a **customer’s loyalty status**?
-     
-     ○ Are there differences in ordering habits based on a **customer’s region**?
-     
-     ○ Is there a connection **between age and family** status in terms of ordering
-     habits?
-     
-     ○ What different classifications does the **demographic information** suggest?
-     Age? Income? Certain types of goods? Family status?
-     
-     ○ What **differences** can you find in **ordering habits** of different customer
-     profiles? Consider the price of orders, the frequency of orders, the products
-     customers are ordering, and anything else you can think of.
+● What are the **recommendations for a new owner listing in Airbnb´s Madrid**? Can they some a competitive advantage?
 
 # Data
 
-- Orders
+The information is external and gathered by Inside Airbnb. The data behind the [Inside Airbnb site](https://insideairbnb.com/get-the-data/) is sourced from publicly available information from the Airbnb site. The data has been analyzed, cleansed and aggregated to facilitate public discussion. This data is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Therefore the information is trustworthy. 
 
-- Products
+**Data Collection**: information compiled from the Airbnb web-site including the availability calendar for 365 days in the future, and the reviews for each listing. The collection is done automatically ( Web Scraping)
 
-- Customers
+**Data content:** The Dataset gathers information from the listings (+26K listings) and reviews (+1M reviews) from Airbnb accommodations in Madrid ( Spain) for the past 12 months. [Explore](https://insideairbnb.com/madrid/)
 
-**Instacart Data Sets** :
-- [Dictionary](https://gist.github.com/jeremystan/c3b39d947d9b88b3ccff3147dbcf6c6b)
-- “The Instacart Online Grocery ShoppingDataset 2017”, Accessed from www.instacart.com/datasets/grocery-shopping-2017 via [Kaggle](https://www.kaggle.com/datasets/psparks/instacart-market-basket-analysis)
   
 
 # Tools
@@ -60,9 +38,14 @@ For this project, the following libraries were used:
 
 ● **Seaborn** - for visualizations 
 
-● **Matplotlib**  - for visualizations 
+● **Matplotlib**  - for visualizations such as line plots, scatter plots, bar charts, histograms, and more.
 
 ● **Scipy**: for data equations
+
+● **Statsmodels.api** for for statistical modeling, econometrics, and hypothesis testing
+
+●**Sklearn** (short for scikit-learn) for machine learning, data mining, and data analysis.
+
 
 # Folders
 The projetc files are  structure upon the following order, containing:
@@ -72,6 +55,16 @@ The projetc files are  structure upon the following order, containing:
 - **Analysis**: with the visualizations used for the final presentation.
 - **Sent to Client**: the analysis and presentation in Excel showing the process, insights and recommendations.
 
+
 # Resources
-*Note: Instacart is a real company that’s made their data available online. However, the contents of the attached project brief have been fabricated by CareerFoundry for the purpose of this analysis.*
+
+Cerdá-Mansilla, E. (2022, junio 17). Airbnb y la turistificación en Madrid. Universidad Autónoma de Madrid.
+Retrieved from https://www.uam.es/uam/investigacion/cultura-cientifica/articulos/airbnb-turistificacion-madrid
+
+
+Cerdá-Mansilla, E., Rubio, N., García-Henche, B., & Campo, S. (2022). Airbnb y la turistificación de los barrios en las ciudades: Un análisis de segmentación por barrios del alojamiento extrahotelero en Madrid. Revista Investigaciones Turísticas, (23), 210-238. [Retrieved from] (https://rua.ua.es/dspace/bitstream/10045/121251/6/Investigaciones-Turisticas_23_10.pdf)
+
+My Lawyer in Spain. (2024). Explained: Spain’s Touristic Licence. My Lawyer in Spain. [Retrieved from] (https://www.mylawyerinspain.com/blog/explained-spains-touristic-licence/)
+
+Airbnb. (2024). What legal and regulatory issues should I consider before hosting on Airbnb? Airbnb. [Retrieved from] (https://www.airbnb.es/help/article/961)
 
