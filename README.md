@@ -1,4 +1,4 @@
-![568374](https://github.com/user-attachments/assets/0d963d94-6411-478c-9dad-160cd6e03b40))
+![logosmall](https://github.com/user-attachments/assets/36159ba9-4828-42c5-b5bb-7574355b7afc)
 # Airbnb 
 Instacart, an **online grocery store** that operates through an app. The **task** is to perform an initial *data and exploratory analysis* of some of their data in order to derive insights and **suggest strategies for better segmentation** based on some provided criteria. [Data_Immersion_Project_Brief.pdf](https://github.com/user-attachments/files/16595746/A4_Data_Immersion_Project_Brief.pdf)
 
