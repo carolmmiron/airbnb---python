@@ -2,7 +2,7 @@
 # Airbnb 
 Airbnb, Inc. is an American company operating an **online marketplace for short-and-long-term homestays and experiences** in various countries and regions. The company **acts as a broker and charges a commission from each booking**.
 
-Data Relevancy: All the data sets are relevant for the analysis on how the proliferation of Airbnb accommodations are shifting the neighborhoods in Madrid. Madrid Airbnbs are mostly controlled by real estate agents, specialized
+**Data Relevancy**: All the data sets were used for this analysis on how the proliferation of Airbnb accommodations are shifting the neighborhoods in Madrid. Madrid Airbnbs are mostly controlled by real estate agents, specialized
 companies, large and small owners who are dedicated to extracting housing from the residential rental market to introduce it on Airbnb.
 **The Central district of Madrid** is a particular case that requires special attention, as its **number of apartments per km2 it is 10 times higher than that of any other district in Madrid**.
 
